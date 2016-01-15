@@ -7,6 +7,7 @@
 \SetWatermarkScale{5}
 \SetWatermarkColor[rgb]{0.7,0,0}
 \usepackage{lettrine}
+\usepackage{cite}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -114,7 +115,7 @@ La interferencia en la sección de prueba debido al bloqueo del flujo por el mod
 \item
 Potencia requerida $AU^{3}$
 \item
-Presión sobre las paredes $\rho U^{2}$
+Presión sobre las paredes \cite{balas} $\rho U^{2}$
 \end{itemize}
 \section{fórmulas de fluidos}
 \textit{Fórmula de Bernuilli}
@@ -163,6 +164,8 @@ $V_{a}$& Agua & GG & GX & GC & GD \\
 \label{tabla}
 \caption{Tabla de referencias}
 \end{figure}
-
-
+\begin{figure}[t]
+\bibliographystyle{acm}
+	\bibliography{libro}
+\end{figure}
 \end{document}
